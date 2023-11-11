@@ -1,0 +1,99 @@
+body{
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,115,121,1) 35%, rgb(22, 33, 35) 100%);
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+   min-height: 500px;
+   
+   .table-header{
+    display: flex;
+    .table-id{
+        width: 80px ;
+        border: 1px solid rgb(8, 8, 8);
+    padding: 15px;
+        display: grid;
+        place-items: center;
+    }
+    .table-img{
+        width: 400px;
+     padding: 15px;
+        border: 1px solid black;
+    
+        display: grid;
+        place-items: center;
+    }
+    .table-name{
+        width: 200px;
+        padding: 15px;
+        border: 1px solid black;
+       
+        display: grid;
+        place-items: center;
+    }
+    .table-job{
+        width: 300px;
+       padding: 15px;
+        border: 1px solid black;
+       
+        display: grid;
+        place-items: center;
+    }
+    .table-update{
+        width: 250px;
+        padding: 15px;
+        border: 1px solid black;
+     
+        display: grid;
+        place-items: center;
+        
+    }
+    .table-delete{
+        width: 250px;
+        display: grid;
+        place-items: center;
+        
+        border: 1px solid black;
+      padding: 15px;
+    }
+    
+   }
+    
+.card_photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}    
+}
+.go__homePage{
+    width: 120px;
+    height: 40px;
+    margin: 30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(47, 255, 85);
+    font-weight: 700;
+    border: 0;
+}
+.add__newUser{
+    width: 120px;
+    height: 40px;
+    margin: 0px,30px;
+    border-radius: 30px;
+    color: white;
+    background-color: rgb(47, 255, 85);
+    font-weight: 700;
+    border: 0;
+    
+}
+button:hover{
+    scale: 1.1;
+    cursor: pointer;
+}
+}

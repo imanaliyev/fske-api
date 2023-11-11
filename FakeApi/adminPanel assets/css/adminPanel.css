@@ -1,0 +1,99 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: fit-content;
+  object-fit: cover;
+}
+
+body {
+  background: rgb(2, 0, 36);
+  background: linear-gradient(90deg, rgb(2, 0, 36) 0%, rgb(9, 115, 121) 35%, rgb(22, 33, 35) 100%);
+}
+body a {
+  text-decoration: none;
+  color: white;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 500px;
+}
+body .container .table-header {
+  display: flex;
+}
+body .container .table-header .table-id {
+  width: 80px;
+  border: 1px solid rgb(8, 8, 8);
+  padding: 15px;
+  display: grid;
+  place-items: center;
+}
+body .container .table-header .table-img {
+  width: 400px;
+  padding: 15px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+body .container .table-header .table-name {
+  width: 200px;
+  padding: 15px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+body .container .table-header .table-job {
+  width: 300px;
+  padding: 15px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+body .container .table-header .table-update {
+  width: 250px;
+  padding: 15px;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+}
+body .container .table-header .table-delete {
+  width: 250px;
+  display: grid;
+  place-items: center;
+  border: 1px solid black;
+  padding: 15px;
+}
+body .container .card_photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+body .go__homePage {
+  width: 120px;
+  height: 40px;
+  margin: 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(47, 255, 85);
+  font-weight: 700;
+  border: 0;
+}
+body .add__newUser {
+  width: 120px;
+  height: 40px;
+  margin: 0px, 30px;
+  border-radius: 30px;
+  color: white;
+  background-color: rgb(47, 255, 85);
+  font-weight: 700;
+  border: 0;
+}
+body button:hover {
+  scale: 1.1;
+  cursor: pointer;
+}/*# sourceMappingURL=adminPanel.css.map */

@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: fit-content;
+  object-fit: cover;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(63, 79, 251);
+  background: radial-gradient(circle, rgb(63, 79, 251) 0%, rgb(147, 38, 60) 100%);
+}
+body .circule {
+  width: 700px;
+  height: 700px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  top: -300px;
+  left: -300px;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgb(131, 58, 180) 0%, rgb(253, 29, 29) 50%, rgb(252, 176, 69) 100%);
+  z-index: -1;
+}
+body .container {
+  height: 100vh;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+body .container .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  width: 300px;
+  transition: 200ms;
+  padding: 5px;
+  height: 350px;
+}
+body .container .card:hover {
+  scale: 1.1;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  background-color: rgba(0, 0, 0, 0.413);
+  color: rgba(249, 249, 249, 0.629);
+  cursor: pointer;
+}
+body .container .card:hover > img {
+  border-radius: 100%;
+}
+body .container .card img {
+  width: 200px;
+  height: 200px;
+  transition: 500ms;
+}/*# sourceMappingURL=home.css.map */
